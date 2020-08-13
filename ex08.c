@@ -4,6 +4,9 @@
 
 int main(int argc, char *argv[])
 {
+    // vp = valor prestação
+    // tx = valor taxa
+    // t = tempo
     float vp,tx,valor;
     int t;
 
