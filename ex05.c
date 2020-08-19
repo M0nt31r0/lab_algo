@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     float decresc = bruto * 0.12; 
     liquido = bruto - decresc;
     
-    printf("Salário bruto:\t\tR$ %0.2f\nDescontos(IR/INSS):\tR$ %0.2f\nSalário líquido:\tR$ %0.2f",bruto,decresc,liquido);
+    printf("Salário bruto:\t\tR$ %0.2f\nDescontos(IR/INSS):\tR$ %0.2f\nSalário líquido:\tR$ %0.2f\n",bruto,decresc,liquido);
     
     return 0;
 }

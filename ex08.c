@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
     scanf("%i",&t);
 
     valor = vp + (vp * (tx/100) * t);
-    printf("Valor total:\tR$ %0.2f",valor);
+    printf("Valor total:\tR$ %0.2f\n",valor);
     return 0;
 }

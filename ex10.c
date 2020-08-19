@@ -27,6 +27,6 @@ int main(int argc, char *argv[])
     float np2 =(atv[1] + ead[1] + pluri)*0.2 + av[1]*0.4;
     float media = np1 * 0.4 + np2 * 0.6;
     
-    printf("NP1: %0.1f\nNP2: %0.1f\nMF: %0.1f",np1,np2,media);
+    printf("NP1: %0.1f\nNP2: %0.1f\nMF: %0.1f\n",np1,np2,media);
     return 0;
 }
