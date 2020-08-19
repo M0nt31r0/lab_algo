@@ -22,10 +22,10 @@ int main(int argc, char *argv[])
     printf("Nota pluridisciplinar:\t ");
     scanf("%f",&pluri);
     
-    //Cálculo np1,np2 e média final.
-    float np1 = (atv[0] + ead[0])*20/100 + av[0]*60/100;
-    float np2 =(atv[1] + atv[1] + pluri)*20/100 + av[1]*40/100;
-    float media = np1 * 40/100 + np2 * 60/100;
+    //Cálculo np1,np2 e média final. 
+    float np1 = (atv[0] + ead[0])* 0.2 + av[0] * 0.6;
+    float np2 =(atv[1] + ead[1] + pluri)*0.2 + av[1]*0.4;
+    float media = np1 * 0.4 + np2 * 0.6;
     
     printf("NP1: %0.1f\nNP2: %0.1f\nMF: %0.1f",np1,np2,media);
     return 0;
