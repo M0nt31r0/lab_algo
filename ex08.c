@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     scanf("%f",&vp);
     printf("Valor da taxa:\t\tR$ ");
     scanf("%f",&tx);
-    printf("Tempo de atraso:\tR$ ");
+    printf("Tempo de atraso:\t ");
     scanf("%i",&t);
 
     valor = vp + (vp * (tx/100) * t);

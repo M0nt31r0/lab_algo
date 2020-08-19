@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
     scanf("%i",&qtdAula);
    
     // acrescimo de 10% (vales + plano sáude)
-    float acresc = (qtdAula * hAula * 4) * 10/100;
+    float acresc = (qtdAula * hAula * 4) * 0.1;
     bruto = acresc + (qtdAula * hAula * 4);
     // decrescimo 5% + 7% (IR e INSS)
-    float decresc = bruto * 12/100; 
+    float decresc = bruto * 0.12; 
     liquido = bruto - decresc;
     
     printf("Salário bruto:\t\tR$ %0.2f\nDescontos(IR/INSS):\tR$ %0.2f\nSalário líquido:\tR$ %0.2f",bruto,decresc,liquido);
