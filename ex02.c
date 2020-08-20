@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     
     int idade = anoAtual - anoNasc;
     
-    printf("Você viveu %i dias",idade*365);
+    printf("Voce viveu %i dias",idade*365);
     
     return 0;
 }

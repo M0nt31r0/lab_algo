@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
         scanf("%f",&num);
         if (num > 10.0 || num < 0.0)
         {
-            printf("ERRO! Digite um valor válido.");
+            printf("ERRO! Digite um valor valido.");
             return 0;
         }
         sum += num;
     }    
-    printf("Média: %0.2f",sum/3);
+    printf("Media: %0.2f",sum/3);
     
     return 0;
 }

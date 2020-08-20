@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     int t;
 
     printf("\t.:PARCELA EM ATRASO:.\n");
-    printf("Valor da prestação:\tR$ ");
+    printf("Valor da prestacao:\tR$ ");
     scanf("%f",&vp);
     printf("Valor da taxa:\t\tR$ ");
     scanf("%f",&tx);

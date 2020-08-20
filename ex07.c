@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     float R,h,pi = 3.14,v;
     
-    printf(".:VOLUME LATA DE ÓLEO:.\n");
+    printf(".:VOLUME LATA DE OLEO:.\n");
     printf("Raio: ");
     scanf("%f",&R);    
     printf("Altura: ");

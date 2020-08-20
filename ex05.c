@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     float hAula = 25.00,bruto,liquido;    
     int qtdAula;
     
-    printf("\t.:INFORMAÇÕES SALARIAIS:.\n");
+    printf("\t.:INFORMACOES SALARIAIS:.\n");
     printf("Nº aulas semanais: ");
     scanf("%i",&qtdAula);
    
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     float decresc = bruto * 0.12; 
     liquido = bruto - decresc;
     
-    printf("Salário bruto:\t\tR$ %0.2f\nDescontos(IR/INSS):\tR$ %0.2f\nSalário líquido:\tR$ %0.2f\n",bruto,decresc,liquido);
+    printf("Salario bruto:\t\tR$ %0.2f\nDescontos(IR/INSS):\tR$ %0.2f\nSalario liquido:\tR$ %0.2f\n",bruto,decresc,liquido);
     
     return 0;
 }
