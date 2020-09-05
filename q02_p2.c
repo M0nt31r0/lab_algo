@@ -4,14 +4,14 @@
 int main(int argc, char *argv[])
 {
     int n;
+    printf("\t.:NEGATIVO PARA POSITIVO:.\n");
     printf("Digite um valor inteiro qualquer: ");
     scanf("%i",&n);
-    
-    // So sera printado na tela se n <= 3
-    if(!(n>3))
+
+    if(n<=0)
     {
-        printf("Valor digitado: ");
-        printf("%i",n);
-    }   
+        n *= -1;
+    }    
+    printf("n: %i",n);
     return 0;
 }

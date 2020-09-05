@@ -3,15 +3,17 @@
 
 int main(int argc, char *argv[])
 {
-    int n;
-    printf("\t.:NEGATIVO PARA POSITIVO:.\n");
-    printf("Digite um valor inteiro qualquer: ");
-    scanf("%i",&n);
-
-    if(n<=0)
+    int num;
+    printf("\t.:NÚMERO PAR OU IMPAR:.\n");
+    printf("Digite um número inteiro qualquer: ");
+    scanf("%i",&num);
+    if (num%2 == 0)
     {
-        n *= -1;
+        printf("O valor digitado é par.");
     }    
-    printf("n: %i",n);
+    else
+    {
+        printf("O valor digitado é impar.");
+    }
     return 0;
 }
