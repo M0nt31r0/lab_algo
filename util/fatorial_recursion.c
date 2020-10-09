@@ -13,7 +13,8 @@ int fat(int n)
     }
 }
 int main(int argc, char *argv[])
-{  
+{ 
+
     printf("%i\n",fat(5));
     return 0;
 }

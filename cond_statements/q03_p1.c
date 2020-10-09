@@ -3,18 +3,23 @@
 
 int main(int argc, char *argv[])
 {
-    int num;
-    printf("\t.:FAIXA DE VALORES:.\n");
-    printf("Digite um número inteiro qualquer: ");
-    scanf("%i",&num);
+    float nota[5];
+    printf(".:CALCULO MEDIA NOTAS:.");
 
-    if(num >= 1 && num <= 9)
+    for(int i = 0; i < 4; i++)
     {
-        printf("O valor está na faixa permitida!");
+        printf("%iº Nota: ",i);
+        scanf("%f",&nota[i]);
+        nota[5] += nota[i];
     }    
+    float media = nota[5]/4;
+    if(media >= 5)
+    {
+        printf("Media: %.1f\naprovado",media);
+    }
     else
     {
-        printf("O valor informado nao e permitido pois nao esta na faixa de 1 a 9");
+        printf("Media: %.1f\nreprovado",media);
     }
     return 0;
 }

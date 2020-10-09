@@ -1,30 +1,20 @@
 #include <stdio.h>
 
+
 int main(int argc, char *argv[])
 {
-    printf("\t.:CALCULO MAIOR MENOR:.\n");
-    printf("Digite 5 numeros inteiros: \n");
-    
-    int n[5],max = 0,min = 0;
-    
-    for(int c = 0;c < 5;c++)
+    int a,b;
+    printf("\t.:DIFERENCA ENTRE DOIS NUMEROS:.\n");
+    printf("Digite 2 valores inteiros: \n");
+    scanf("%i%i",&a,&b);
+    if(a>b)
     {
-        printf("%iº número: ",c);
-        scanf("%i",&n[c]);
+        b = a - b;
     }
-    max = n[0];
-    min = n[0];
-    for(int i = 0;i < 5;i++)
+    else
     {
-        if(max < n[i])
-        {
-            max = n[i];
-        }
-        if(min > n[i])
-        {
-            min = n[i];
-        }
+        b = b - a;
     }
-    printf("\nmax: %i min: %i",max,min);
-    return 0; 
+    printf("Diferenca: %i",b);
+    return 0;
 }
