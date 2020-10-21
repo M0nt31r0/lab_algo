@@ -11,7 +11,6 @@
 |for_q09_p1 | Fatorial simples            |
 |for_q10_p1 | Somatoria fatorial          |
 |           |                             |
-|           |                             |
 |*LOOPS(L2)*|         **SUMÁRIO**         |
 |           |                             |
 |for_q01_p2 | Fibonacci                   |
@@ -23,16 +22,15 @@
 |for_q07_p2 | Somar fatoriais ímpares     |
 |for_2q07_p2| Somar fatoriais ímpares     |
 |           |                             |
-|           |                             |
 |*LOOPS(L3)*|         **SUMÁRIO**         |
 |           |                             |
-|  Q0 - 3   |            menu             |
+|  Q0 -> 3  |            menu             |
 |lista_loops| Imprimir nomes x vezes      |
 |           | Imprimir múltiplos          |
 |           | Imprimir 3 contagens        |
 |           | Imprimir 3 conta. (decresc) |
 |           | Somar intervalo 3 valores   |
-|  Q0 -3_1  |            menu             |
+| Q0 -> 3_1 |            menu             |
 |lista_loops| Produto intervalo 3 valores |
 |           | Somar salarios              |
 |           | Menu interativo             |
