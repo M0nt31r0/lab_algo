@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define Max(n,i) (n>i?n:i)
 #define Min(n,i) (n<i?n:i)
 
@@ -8,6 +9,8 @@ int main(int argc, char *argv[])
     int opc, m[60] = {0}, n = 0, c = 0, i = 0;
     size_t t = sizeof(m) / sizeof(m[0]);
     
+    // seed rand
+    srand(time(NULL));
     do{
         printf("\n\t.:SORTEIO2:.\n");
         printf("\n1 - Atribuir(-1)");
