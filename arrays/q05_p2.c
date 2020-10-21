@@ -9,7 +9,7 @@
 
 #include <stdlib.h>
 #include <math.h>
-#define S 3
+#define S 10
 
 void add(int *array);
 void rm(int *array);
