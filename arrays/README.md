@@ -8,7 +8,7 @@
 |q05_p1     | Valores aleatórios 2        |
 |q06_p1     | Exibir valores repetidos    |
 |           |                             |
-|*ARRAY(L1)*|          **SUMÁRIO**        |
+|*ARRAY(L2)*|          **SUMÁRIO**        |
 |           |                             |
 |q01_p2     | RA's                        |
 |q02_p2     | Alturas                     |
@@ -17,3 +17,12 @@
 |q05_p2     | Vetores A & B               |
 |q01_test   | Media notas alunos          |
 |q02_test   | Gestao mensalidade          |
+|           |                             |
+|*ARRAY(L3)*|           **SUMÁRIO**       |
+|           |                             |
+|q01_p3     | Basico matrizes             |
+|q02_p3     | Linhas x colunas            |
+|q03_p3     | Linhas x colunas 2          |
+|q04_p3     | Processamento               |
+
+
