@@ -3,7 +3,7 @@
 
 int main()
 {
-    short int opt;
+    int opt;
     
     do{
         printf("\n\t.::.\n");
@@ -13,9 +13,12 @@ int main()
         printf("\n4  - ");
         printf("\n5  - ");
         printf("\n6  - ");
-        printf("\n9  - Quit");
+        printf("\n7  - ");
+        printf("\n8  - ");
+        printf("\n9  - ");
+        printf("\n10 - ");
         printf("\nOPT: ");
-        scanf("%hi",&opt);
+        scanf("%i",&opt);
 
         switch (opt)
         {
@@ -37,6 +40,12 @@ int main()
             case 6:
                 
                 break;
+            case 7:
+                
+                break;
+            case 8:
+                
+                break;
             case 9:
                 
                 break;
@@ -44,9 +53,9 @@ int main()
                 
                 break;
             default:
-                printf ("Invalid Option\n");
+                printf ("Invalid Option!\n");
         }
-    }while(opt != 9);
+        }while(opt != 9);
     
     return 0;
 }

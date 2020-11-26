@@ -24,5 +24,6 @@
 |q02_p3     | Linhas x colunas            |
 |q03_p3     | Linhas x colunas 2          |
 |q04_p3     | Processamento               |
-
+|q0x_px     | matriz 5000                 |
+|           |                             |
 
